@@ -17,5 +17,6 @@ To learn how to configure scopes, see the [Microsoft Graph permissions reference
 - Click the **Authentication** section in your App Registration, and toggle the *Treat application as a public client* setting to True
 
 ## How to use
+- Replace the value for **app_id** in *appsettings.json* with the **Application (client) ID** value from your app registration in Azure AD
 - Run the app
 - You will need to use the console login flow (follow the directions in the console to go to the MS login page, using the unique string as the passcode)
